@@ -1,16 +1,640 @@
-.App {
+ /* .App {
   text-align: center;
-}
+}  */
 
+body{
+  /* background-image: linear-gradient(to right , rgb(241, 100, 225),rgb(194, 194, 182)); */
+  background-color: bisque;
+}
+.mgen{
+  margin-top: 100px;
+}
+.p9595{
+  text-decoration: none ;
+}
+.k66{
+  text-align: center;
+  font-size: 10px;
+}
+.footer5656{
+  background-color:rgb(240, 205, 152) ;
+}
+.plm{
+  width: 200px;
+  height: 90px;
+  border-radius: 15px;
+}
+.Footer-flex{
+  display: flex;
+  
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  justify-content: space-around;
+  /* align-items: center; */
+  /* background-color: rgb(240, 205, 152); */
+}
+.addhome{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px black solid;
+}
+.tphome{
+  display: flex;
+  margin: 25px;
+}
+.hedtop{
+  /* position: absolute; */
+  float:right;
+  margin-right: 480px;
+}
+.a11{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.imghometop{
+  width: 130px;
+  height: 120px;
+  border-radius: 15px;
+
+}
+.kish{
+  display: flex;
+  flex-direction: column;
+  width: 35%s;
+}
+.stp{
+  display: flex;
+  margin: 20px;
+}
+.topstory{
+  /* border: 1px black solid; */
+  width: 62%;
+}
+.topposthome{
+  /* border: 1px black solid; */
+  width: 100%;
+  height: 470px;
+}
+.imagestory{
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+}
+.bannerr{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+.lt{
+  display: flex;
+ flex-wrap: wrap;
+flex-direction: row;
+/* border:  1px black solid; */
+}
+.ltimage{
+  width: 260px;
+  height: 220px;
+  border-radius: 15px;
+}
+.ltelemennt{
+  width: 260px;
+  margin: 20px 20px;
+}
+.BigBanner2{
+display: flex;
+flex-direction: column;
+}
+.BB1{
+  width: 770px;
+  height:565px;
+  border-radius: 20px;
+
+}
+.BB2{
+  width: 380px;
+  height:282.5px;
+  border-radius: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.mm{
+  position: relative;
+  left: -500px;
+  top: 100px;
+}
+.genmain{
+  /* text-align: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+.k56{
+  width: 40%;
+  position: relative;
+  top: -17px;
+}
+.k566{
+  width: 40%;
+  position: relative;
+  top: -12px;
+  margin-top: -20px;
+}
+.bboton{
+ position: relative;
+ top: 31px;
+}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.genim{
+  width: 100%;
+  height: 400px;
+  border: black 1px solid;
+  border-radius: 20px;
+ position: relative;
+ top: 0px;
+
+}
+.mainuser5{
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .social{
+  width: 240px;
+  height: 90px;
+  position: relative;
+  left: 275px;
+  border-radius: 20px;
+} */
+.social7{
+  width: 240px;
+  height: 90px;
+  
+
+  border-radius: 20px;
+}
+/* .usdetails{
+  width: 40%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+border-radius: 20px;
+  top: 220px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  box-sizing: border-box;
+} */
+.usname7{
+  position: relative;
+  right: 80px;
+}
+.usdetails7{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+border-radius: 20px;
+  
+  background-color: rgb(255, 255, 255);
+ 
+  box-sizing: border-box;
+}
+/* .usname{
+  position: absolute;
+  left: 100px;
+} */
+.dwd{
+  position: absolute;
+  top: 42px;
+  left:100px;
+}
+.usicon{
+  width: 90px;
+  height: 90px;
+  
+}
+.thesiren{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Satisfy', cursive;}
+  .the{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 3px;
+   font-size: 40px;
+
+    rotate: 90deg;
   }
+  
+  .close-navbar,
+.navbar{
+  
+  width: 100%;
+
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.a{
+  color: white;
+  text-decoration: none;
+ font-size: 30px;
+}
+.mainbox{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.box{
+  width: 550px;
+  height: 100px;
+  background-color: chocolate;
+}
+.photo{
+  display: inline;
+  width: 48%;
+  height: 200px;
+  border-radius: 9px;
+}
+.photo:hover{
+ 
+  border: 5px solid black;
+}
+.smallp{
+  width: 40%;
+  margin: 15px 0px;
+}
+.smallp:hover{
+ 
+  border: 5px solid black;
+}
+.subbox{
+  display: inline-block;
+  width: 50%;
+}
+.adverticement{
+  /* border: 2px solid black ; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+}
+.addphoto{
+  height: 380px;
+  width: 50%;
+}
+.adverr{
+  height: 400px;
+  /* border: 2px black solid; */
+  
+  background-image: url(https://images.everydayhealth.com/images/ehfc-oblique-workout-header-1440x810.jpg?w=1110);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.articalside{
+  width: 45%;
+  margin-left: 60PX;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.mphotoholy{
+  height: 400px;
+  width: 500px;
+}
+.mphotoholy:hover{
+ 
+  border: 5px solid black;
+}
+.advertech{
+  height: 400px;
+  background-image: url(https://www.adani.com/-/media/Project/Adani/Blog/gdp-rhetoric/GA_banner/TiE-Global-Summit-GSA.jpeg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.smallholyyp{
+  width: 200px;
+  height: 150px;
+}
+.top-postside{
+  width: 45%;
+}
+/* .topmain{
+  /* border: 2px black solid; */
+ 
+.smalltop{
+  
+  height: auto;
+  /* border: 2px black solid; */
+}
+.mphoto{
+  width: 90%;
+  /* border: 2px red solid; */
+  border-radius: 10px;
+}
+.mphoto:hover{
+ 
+  border: 5px solid black;
+}
+.topsmallp{
+  display: flex;
+  flex-direction: row;
+}
+.a1{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  justify-content: space-between;
+}
+.bolly{
+  display: inline;
+  float: left;
+ 
+}
+.tp{
+  display: inline;
+  float: right;
+  /* margin-right: 350px; */
+  margin-right: 554px;
+ 
+}
+.hamberger{
+  display: none;
+}
+.headertop{
+  margin: 20px 0px 10px 0px;
+}
+
+@media (max-width: 800px) {
+
+.thesiren{
+  font-size: 20px;
+}
+.the{
+  font-size: 20px;
+}
+  .hamberger{
+    /* display:inline-block; */
+    width: 32px;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    /* background-color: white; */
+  }
+  .line{
+    width: 100%;
+    border: black;
+    height: 14.66%;
+    background-color: black;
+    display: inline-block;
+
+    border-radius: 3px;
+    
+    
+  }
+  .fline{
+    width: 100%;
+    border: black;
+    height: 14.66%;
+    background-color: black;
+    display: inline-block;
+
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    transform-origin: right center;
+ 
+  }
+  .sline{
+    visibility: hidden;
+  }
+  .tline{
+    width: 100%;
+    border: black;
+    height: 14.66%;
+    background-color: black;
+    display: inline-block;
+
+    border-radius: 3px;
+    transform: rotate(45deg);
+    transform-origin: right center;
+ 
+  }
+
+  .close-navbar{
+    display: none;
+  }
+.navbar{
+  
+  /* flex-direction: column;
+  height: auto;
+  width: 40%;
+  opacity: 0.5;
+  background-color: black;
+  position: relative;
+  top: -2px;
+    right: -117px; */
+
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: relative;
+    top: -2px;
+    right: 2px;
+
+ 
+}
+.bannerr{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.BB1{
+  width: 100%;
+  height: 250px;
+  
+ 
+}
+.top{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.BigBanner{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BigBanner2{
+  width: 80%;
+}
+.BB2{
+  width: 100%;
+  height: 250px;
+  
+}
+.latest66{
+  text-align: center;
+}
+.lt{
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.stp{
+  flex-direction: column;
+  height: auto;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.at56{
+text-align: center;
+width: 90%;
+}
+.topstory{
+width: 100%;
+}
+.addhome {
+  width: 78%;
+  margin: 15px 0px;
+ 
+}
+.Footer-flex{
+  flex-direction: column;
+  height: auto;
+  width: 80%;
+  text-align: center;
+  background-color: rgb(240, 205, 152);
+}
+.footer5656{
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.kish{
+  
+  display: flex; 
+   align-items: center; 
+   justify-content: center; 
+}
+.articalside{
+  width: 90%;
+  flex-direction: column;
+  margin-left: 0px;
+}
+.a1{
+  width: 100%;
+  flex-direction: column;
+  
+  justify-content: space-between;
+}
+.subbox{
+  width: 90%;
+}
+.photo{
+  width: 100%;
+}
+.mainbox{
+  justify-content: center;
+  align-items: center;
+}
+.top-postside{
+  width: 90%;
+  margin: 0px;
+}
+.mphotoholy {
+width: 100%;
+height: 300px;
+}
+.smallholyyp{
+  width: 40%;
+}
+.smallp{
+  height: 150px;
+}
+.usdetails {
+  width: 80%;
+  top: 171px;
+}
+.social{
+  display: none;
+}
+.k56{
+  width: 80%;
+}
+.k566{
+  width: 80%;
+}
+.genim{
+  width: 100%;
+}
+.mainuser5{ 
+  width: 90%;
+}
+.social7 {
+  width: 125px;
+  height: 90px;
+  border-radius: 20px;
+}
+.usname7 {
+  position: relative;
+  right: -15px;
+}
+.tp{
+  display: inline;
+  float: right;
+  /* margin-right: 350px; */
+  margin-right: 205px;
+ 
+}
+
+
+
 }
 
 .App-header {
